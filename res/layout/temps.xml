@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Bras de fer" />
+
+       	<TextView
+       	    android:id="@+id/premier"
+       	    android:layout_width="wrap_content"
+       	    android:layout_height="wrap_content"
+       	    android:layout_marginRight="29dp"
+       	    android:layout_marginTop="70dp"
+       	    android:layout_toLeftOf="@+id/textView1"
+       	    android:text="1er temps" />
+
+       	<TextView
+       	    android:id="@+id/cinquieme"
+       	    android:layout_width="wrap_content"
+       	    android:layout_height="wrap_content"
+       	    android:layout_alignLeft="@+id/quatrieme"
+       	    android:layout_below="@+id/quatrieme"
+       	    android:layout_marginTop="59dp"
+       	    android:text="5eme temps" />
+
+       	<TextView
+       	    android:id="@+id/dexieme"
+       	    android:layout_width="wrap_content"
+       	    android:layout_height="wrap_content"
+       	    android:layout_alignLeft="@+id/premier"
+       	    android:layout_below="@+id/premier"
+       	    android:layout_marginTop="52dp"
+       	    android:text="2eme temps" />
+
+       	<TextView
+       	    android:id="@+id/troisieme"
+       	    android:layout_width="wrap_content"
+       	    android:layout_height="wrap_content"
+       	    android:layout_alignLeft="@+id/dexieme"
+       	    android:layout_centerVertical="true"
+       	    android:text="3eme temps" />
+
+       	<TextView
+       	    android:id="@+id/quatrieme"
+       	    android:layout_width="wrap_content"
+       	    android:layout_height="wrap_content"
+       	    android:layout_alignLeft="@+id/troisieme"
+       	    android:layout_below="@+id/troisieme"
+       	    android:layout_marginTop="68dp"
+       	    android:text="4eme temps" />
+       	
+</RelativeLayout>
